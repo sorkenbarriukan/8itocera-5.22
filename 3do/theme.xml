@@ -1,0 +1,68 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+<view name="system">
+ <image name="background_color" extra="true">
+  <path>./.png</path>
+  <origin>0 0</origin>
+  <pos>0 0</pos>
+  <size>1 1</size>
+  <zIndex>10</zIndex>
+ </image>
+</view>
+
+<view name="system, basic, detailed, grid, video">
+ <image name="logo">
+  <path>./art/system.png</path>
+ </image>
+</view>
+
+<view name="basic, detailed,video">
+ <image name="console" extra="true">
+  <path>./.png</path>
+ <origin>0 0</origin>
+  <pos>0 0</pos>
+  <size>1 1</size>
+ </image>
+ 
+ 
+  <image name="cart" extra="true">
+  <path>./.png</path>
+<origin>.5 .5</origin>
+<pos>0.6095 0.55</pos>
+<size>0.159 0.150</size>
+<zIndex>10</zIndex>
+ </image>
+ 
+ <image name="md_image">
+	<origin>0.5 0.5</origin>
+	<pos>0.44 0.46</pos>
+	<maxSize>0.25 0.44</maxSize>
+</image>
+
+</view>
+
+
+<feature supported="video">
+<view name="video">
+
+<video name="md_video">
+<origin>0.5 0.5</origin>
+	<pos>0.44 0.46</pos>
+	<maxSize>0.28 0.47</maxSize>
+<delay>1</delay>
+<showSnapshotNoVideo>true</showSnapshotNoVideo>
+<showSnapshotDelay>true</showSnapshotDelay>
+</video>
+
+<image name="md_marquee">
+<origin>.5 .5</origin>
+<pos>2000 2000</pos>
+<maxSize>0.22 0.15</maxSize>
+</image>
+
+</view>
+</feature>
+
+</theme>
